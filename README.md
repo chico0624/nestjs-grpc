@@ -1,6 +1,8 @@
-#NestJS gRPC
+# NestJS gRPC
 
-# setup
+For a Mac
+
+## setup
 ```
 npm run start
 
@@ -12,5 +14,11 @@ evans --proto src/proto/hero/hero.proto -p 5000
 call FindOne
 ```
 
-## evans install
+### evans install
 https://github.com/ktr0731/evans#macos
+
+## generate ts from .proto
+`npm run generate:protoc`
+
+### protoc install
+`brew install protobuf`
